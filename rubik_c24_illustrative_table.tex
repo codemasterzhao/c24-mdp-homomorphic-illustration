@@ -1,0 +1,18 @@
+% Requires \usepackage{booktabs}
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{5pt}
+  \caption{Illustrative Rubik's Cube solve rates. Entries report the mean $\pm$ sample standard deviation across the three displayed runs. For the Non-equivariant and Canonicalization methods, the first run is reproduced from the source figure and the remaining runs are illustrative; the C24 MDP-homomorphic values are projected expectations.}
+  \label{tab:rubik-c24-illustrative}
+  \begin{tabular}{lccc}
+    \toprule
+    Cube size & Non-equivariant & Canonicalization & C24 MDP-homomorphic \\
+    \midrule
+    $2\times2$ & $100.0\,\pm\,0.0\%$ & $100.0\,\pm\,0.0\%$ & $100.0\,\pm\,0.0\%$ \\
+    $3\times3$ & $98.7\,\pm\,1.5\%$ & $99.3\,\pm\,1.2\%$ & $99.0\,\pm\,1.7\%$ \\
+    $4\times4$ & $61.7\,\pm\,4.0\%$ & $97.0\,\pm\,3.0\%$ & $95.0\,\pm\,2.6\%$ \\
+    $5\times5$ & $42.7\,\pm\,4.5\%$ & $83.7\,\pm\,4.5\%$ & $81.0\,\pm\,2.6\%$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
